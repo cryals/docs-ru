@@ -1,20 +1,22 @@
-# Space Wizards Development Wiki
+# Вики-документация Space Wizards
 
-This is the `mdbook`-based developer documentation for all Space Wizards projects, including Robust Toolbox, Space Station 14, the SS14 launcher, etc. These docs cover many topics and can be potentially very useful for mappers, spriters, active contributors & prospective contributors, people who want to use our engine for their own projects, fork developers, and so on.
+Это документация для разработчиков на базе `mdbook`, охватывающая все проекты Space Wizards, включая Robust Toolbox, Space Station 14, лаунчер SS14 и другие. Эти материалы охватывают множество тем и могут быть полезны картографам, художникам, активным и потенциальным участникам разработки, тем, кто хочет использовать наш движок в своих проектах, разработчикам форков и другим.
 
-The site is currently hosted at [https://docs.spacestation14.com](https://docs.spacestation14.com).
+Сайт в настоящее время размещён по адресу: [https://docs.spacestation14.com](https://docs.spacestation14.com).
 
-Benefits of the current docs site infrastructure include:
-- First-class git support, open source and actually editable by everyone
-- Decently familiar & comfortable for developers since `mdbook` use is very widespread
-- No sign-on infrastructure or hosting necessary (besides GH pages), if forks would like to host their own
-- Very low friction to adding new pages and editing/fixing old ones
-- High level of customizability with styling and easy custom scripting
-- Eventual localization support
+Преимущества текущей инфраструктуры документации:
 
-The following `mdbook` features & plugins are available and in use:
-- `MathJax` support 
-- Sidebar ToC (integrated directly into `index.hbs` etc)
+- Полноценная поддержка git, открытый исходный код и возможность редактирования всеми желающими
+- Удобство и привычность для разработчиков, поскольку `mdbook` широко используется
+- Отсутствие необходимости во внешней системе аутентификации или хостинге (используются только GitHub Pages), что упрощает размещение документации для форков
+- Минимальные барьеры для добавления новых страниц и редактирования или исправления существующих
+- Высокая степень настраиваемости оформления и простота внедрения пользовательских скриптов
+- Поддержка локализации в будущем
+
+Следующие функции и плагины `mdbook` доступны и используются:
+
+- Поддержка `MathJax`
+- Оглавление в боковой панели (интегрировано непосредственно в `index.hbs` и другие шаблоны)
 - `mdbook-mermaid`
 - `mdbook-linkcheck`
 - `mdbook-template`
@@ -22,14 +24,11 @@ The following `mdbook` features & plugins are available and in use:
 - `mdbook-emojicodes`
 - `mdbook-embedify`
 
-**For information such as how to edit, build & test these docs, see [Guide to Editing Docs](https://spacestation14.io/docs/en/meta/guide-to-editing-docs.html). on the site itself** (or [in this repo](./src/en/meta/guide-to-editing-docs.md))
+**Информацию о том, как редактировать, собирать и тестировать документацию, см. в руководстве [«Как редактировать документацию»](https://spacestation14.io/docs/en/meta/guide-to-editing-docs.html) на сайте** (или [в этом репозитории](./src/en/meta/guide-to-editing-docs.md)).
 
-## Screenshots
-
+## Скриншоты
 ![](src/en/assets/images/readme-example-1.png)
-
 ![](src/en/assets/images/readme-example-2.png)
 
-## License
-
-The Space Wizards Development Wiki is released under the Mozilla Public License v2.0.
+## Лицензия
+Вики-документация Space Wizards распространяется под лицензией Mozilla Public License v2.0.
